@@ -7,3 +7,4 @@ image 'L3-li-top.png'
 image 'L3-ul-top.png'
 image 'vertical-line.png'
 image 'white-highlight.png'
+stylesheet 'sitemap.sass', :media => "screen, projection"

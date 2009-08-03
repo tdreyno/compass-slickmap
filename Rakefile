@@ -9,7 +9,7 @@ begin
     gem.email = "tdreyno@gmail.com"
     gem.homepage = "http://github.com/tdreyno/compass-slickmap"
     gem.authors = ["Thomas Reynolds"]
-    gem.rubyforge_project = "compass-slickmap"
+    gem.rubyforge_project = "compassslickmap"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
     gem.add_dependency("chriseppstein-compass")
   end
