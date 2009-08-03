@@ -9,8 +9,10 @@ Gem::Specification.new do |s|
   s.date = %q{2009-08-03}
   s.email = %q{tdreyno@gmail.com}
   s.files = [
-    "Rakefile",
+    ".gitignore",
+     "Rakefile",
      "VERSION",
+     "compass-slickmap.gemspec",
      "lib/slickmap.rb",
      "lib/slickmap/compass_plugin.rb",
      "sass/slickmap.sass",
@@ -22,6 +24,7 @@ Gem::Specification.new do |s|
      "templates/project/L3-li-top.png",
      "templates/project/L3-ul-top.png",
      "templates/project/manifest.rb",
+     "templates/project/sitemap.sass",
      "templates/project/vertical-line.png",
      "templates/project/white-highlight.png"
   ]
