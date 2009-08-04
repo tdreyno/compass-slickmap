@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{compass-slickmap}
-  s.version = "0.0.2"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Thomas Reynolds"]
-  s.date = %q{2009-08-03}
+  s.date = %q{2009-08-04}
   s.email = %q{tdreyno@gmail.com}
   s.files = [
     ".gitignore",
