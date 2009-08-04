@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{compass-slickmap}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Thomas Reynolds"]
@@ -15,18 +15,18 @@ Gem::Specification.new do |s|
      "compass-slickmap.gemspec",
      "lib/slickmap.rb",
      "lib/slickmap/compass_plugin.rb",
-     "sass/slickmap.sass",
-     "templates/project/L1-center.png",
-     "templates/project/L1-left.png",
-     "templates/project/L1-right.png",
-     "templates/project/L3-bottom.png",
-     "templates/project/L3-center.png",
-     "templates/project/L3-li-top.png",
-     "templates/project/L3-ul-top.png",
+     "sass/_slickmap.sass",
+     "templates/project/images/L1-center.png",
+     "templates/project/images/L1-left.png",
+     "templates/project/images/L1-right.png",
+     "templates/project/images/L3-bottom.png",
+     "templates/project/images/L3-center.png",
+     "templates/project/images/L3-li-top.png",
+     "templates/project/images/L3-ul-top.png",
+     "templates/project/images/vertical-line.png",
+     "templates/project/images/white-highlight.png",
      "templates/project/manifest.rb",
-     "templates/project/sitemap.sass",
-     "templates/project/vertical-line.png",
-     "templates/project/white-highlight.png"
+     "templates/project/sitemap.sass"
   ]
   s.homepage = %q{http://github.com/tdreyno/compass-slickmap}
   s.rdoc_options = ["--charset=UTF-8"]
