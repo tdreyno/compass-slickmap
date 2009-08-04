@@ -1,6 +1,8 @@
+@import compass/utilities/general/reset.sass
 !slickmap_image_prefix ||= ""
 
 =slickmap(!body_selector = "body")
+  +general-reset
   #{!body_selector}
     +slickmap-body
     @if !body_selector != "body"
