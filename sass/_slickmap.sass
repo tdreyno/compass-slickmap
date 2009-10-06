@@ -1,5 +1,4 @@
 @import compass/utilities/general/reset.sass
-!slickmap_image_prefix ||= ""
 
 =slickmap(!body_selector = "body")
   +global-reset
@@ -49,7 +48,7 @@
       clear: left
       margin-top: 0
       padding: 10px 0 0 0
-      background= image_url("#{!slickmap_image_prefix}vertical-line.png") "center" "bottom" "repeat-y"
+      background= slickmap_image("vertical-line.png") "center" "bottom" "repeat-y"
       a
         background-color: #cee3ac
         border-color: #b8da83
@@ -59,7 +58,7 @@
       &:first-child
         padding-top: 30px
       &:last-child
-        background= image_url("#{!slickmap_image_prefix}vertical-line.png") "center" "bottom" "repeat-y"
+        background= slickmap_image("vertical-line.png") "center" "bottom" "repeat-y"
 
       a:link:before, a:visited:before
         color: #8faf5c
@@ -70,10 +69,10 @@
         width: 100%
         float: right
         padding: 9px 0 10px 0
-        background= #fff image_url("#{!slickmap_image_prefix}L3-ul-top.png") "center" "top" "no-repeat"
+        background= #fff slickmap_image("L3-ul-top.png") "center" "top" "no-repeat"
 
       li
-        background= image_url("#{!slickmap_image_prefix}L3-center.png") "left" "center" "no-repeat"
+        background= slickmap_image("L3-center.png") "left" "center" "no-repeat"
         padding: 5px 0
         a
           background-color: #fff7aa
@@ -87,20 +86,20 @@
             border-color: #d1b62c
         &:first-child
           padding: 15px 0 5px 0
-          background= image_url("#{!slickmap_image_prefix}L3-li-top.png") "left" "center" "no-repeat"
+          background= slickmap_image("L3-li-top.png") "left" "center" "no-repeat"
         &:last-child
-          background= image_url("#{!slickmap_image_prefix}L3-bottom.png") "left" "center" "no-repeat"
+          background= slickmap_image("L3-bottom.png") "left" "center" "no-repeat"
         a:link:before, a:visited:before
           color: #ccae14
           font-size: 9px
 
   li
     float: left
-    background= image_url("#{!slickmap_image_prefix}L1-center.png") "center" "top" "no-repeat"
+    background= slickmap_image("L1-center.png") "center" "top" "no-repeat"
     padding: 30px 0
     margin-top: -30px
     &:last-child
-      background= image_url("#{!slickmap_image_prefix}L1-right.png") "center" "top" "no-repeat"
+      background= slickmap_image("L1-right.png") "center" "top" "no-repeat"
     a
       margin: 0 20px 0 0
       padding: 10px 0
@@ -109,7 +108,7 @@
       font-weight: bold
       text-align: center
       color: black
-      background= #c3eafb image_url("#{!slickmap_image_prefix}white-highlight.png") "top" "left" "repeat-x"
+      background= #c3eafb slickmap_image("white-highlight.png") "top" "left" "repeat-x"
       border: 2px solid #b5d9ea
       -moz-border-radius: 5px
       -webkit-border-radius: 5px
@@ -122,7 +121,7 @@
 =slickmap-primary-nav-home    
   display: block
   float: none
-  background= #fff image_url("#{!slickmap_image_prefix}L1-left.png") "center" "bottom" "no-repeat"
+  background= #fff slickmap_image("L1-left.png") "center" "bottom" "no-repeat"
   position: relative
   z-index: 2
   padding: 0 0 30px 0
@@ -143,7 +142,7 @@
       font-weight: bold
       text-align: center
       color: black
-      background= #fff7aa image_url("#{!slickmap_image_prefix}white-highlight.png") "top" "left" "repeat-x"
+      background= #fff7aa slickmap_image("white-highlight.png") "top" "left" "repeat-x"
       -moz-border-radius: 5px
       -webkit-border-radius: 5px
       -webkit-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px
