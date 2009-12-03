@@ -9,9 +9,9 @@
     +nested-reset
     +slickmap-body
     @if !body_selector != "body"
-      +slickmap-defaults
+      +slickmap-defaults(!columns)
   @if !body_selector == "body"
-    +slickmap-defaults
+    +slickmap-defaults(!columns)
 
 =slickmap-primary-nav(!columns = !column_default)
   margin: 0
