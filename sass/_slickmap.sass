@@ -5,8 +5,8 @@
 !column_default ||= 4
 
 =slickmap(!body_selector = "body", !columns = !column_default)
-  +global-reset
   #{!body_selector}
+    +nested-reset
     +slickmap-body
     @if !body_selector != "body"
       +slickmap-defaults
