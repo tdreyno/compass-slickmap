@@ -1,10 +1,1 @@
-image 'L1-center.png'
-image 'L1-left.png'
-image 'L1-right.png'
-image 'L3-bottom.png'
-image 'L3-center.png'
-image 'L3-li-top.png'
-image 'L3-ul-top.png'
-image 'vertical-line.png'
-image 'white-highlight.png'
 stylesheet 'sitemap.scss', :media => "screen, projection"
