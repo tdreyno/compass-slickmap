@@ -1,4 +1,5 @@
+*.gem
+.bundle
+Gemfile.lock
+pkg/*
 .DS_Store
-pkg
-.sass-cache
-compass-slickmap-*.gem
