@@ -110,7 +110,7 @@ $column-default: 4 !default;
       background: #c3eafb url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAtCAYAAADsvzj/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAF9JREFUeNrs2UsOABAMQEES9987q0+5hI2OxAEmr91QI6KXD067d4OAvIEsRRQByQGZIEZLkRxFhtECAckBsewgIHYExGgpAgJi2T0+KKIIiNd4kKcQX2+KgCSAHAEGAF07L6+lvtV3AAAAAElFTkSuQmCC') repeat-x 0 0;
       border: 2px solid #b5d9ea;
       @include border-radius(5px);
-      @include box-shadow(rgba(0, 0, 0, 0.5), 2px, 2px, 2px);
+      @include box-shadow(transparentize(black, 0.5) 2px 2px 2px);
       &:hover, span {
         background-color: #e2f4fd;
         border-color: #97bdcf; } } } }
@@ -141,7 +141,7 @@ $column-default: 4 !default;
       color: black;
       background: #fff7aa url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAtCAYAAADsvzj/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAF9JREFUeNrs2UsOABAMQEES9987q0+5hI2OxAEmr91QI6KXD067d4OAvIEsRRQByQGZIEZLkRxFhtECAckBsewgIHYExGgpAgJi2T0+KKIIiNd4kKcQX2+KgCSAHAEGAF07L6+lvtV3AAAAAElFTkSuQmCC') repeat-x 0 0;
       @include border-radius(5px);
-      @include box-shadow(rgba(0, 0, 0, 0.5), 2px, 2px, 2px);
+      @include box-shadow(transparentize(black, 0.5) 2px 2px 2px);
       &:hover {
         background-color: #fffce5;
         border-color: #d1b62c; } }
